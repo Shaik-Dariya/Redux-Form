@@ -5,7 +5,7 @@ const required = value => (value ? undefined : 'Required');
 const maxLength = max => value => (value.length > max ? `Must be within ${max} length`: undefined);
 const maxLength15 = maxLength(15);
 const minLength2 = value => value.length < 2 ? `Must be min lenght 2`: undefined;
-const alphaNumeric = value => !isNaN(value) ? 'Should be alphaNumeric' : undefined;
+const alphaNumeric = value => !isNaN(value) ? 'Should be only alphabets.' : undefined;
 
 const renderInputField = ({
     input,
