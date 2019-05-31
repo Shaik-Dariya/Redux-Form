@@ -1,4 +1,4 @@
 # Redux-Form
-Validate and Routing with Redux.
+Validate with Redux-Form.
 
 https://wjekd.codesandbox.io/#/simpleForm
